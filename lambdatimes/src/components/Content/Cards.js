@@ -11,6 +11,7 @@ const Cards = props => {
             return (
               <Card
               card = {card}
+              key = {card.headline}
               />
             )
           })}
